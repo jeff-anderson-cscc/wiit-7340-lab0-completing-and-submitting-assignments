@@ -49,10 +49,12 @@ the welcome screen
 ## Complete the coding assignment as directed, commiting your changes frequently
 
 1. For this lab, replace "World" in "Hello World" with your name in ``HomeController.java`` under ``src/main/java/hello``
+1. From the "VCS" menu, choose "Commit"
+1. Enter a meaningful comment in the "Commit Changes" dialog then press "Commit"
 
 ## Once you are ready to submit your work for grading
 
-1. Make your final commit if you haven't already
+1. Make your final commit if you haven't already (see above)
 1. From the "VCS" menu, choose "Git" then "Push"
 1. Click "Push" in the "Push Commits" dialog
 1. If prompted, enter your GitHub password and press "Log In"
