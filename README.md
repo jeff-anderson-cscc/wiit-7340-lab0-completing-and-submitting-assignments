@@ -4,7 +4,7 @@
 
 # Instructions
 
-## 1. Create a private repository for your your work:
+## Create a private repository for completing this assignment
 
 Normally, everyone on a team works off a shared repository that functions as the hub for collaboration and communication. In a classroom setting, you will need to keep your work private to prevent others from unfairly benefiting from your awesomeness. In this step you will create a private GitHub repository from a base template which I provide.
 
@@ -16,7 +16,7 @@ Normally, everyone on a team works off a shared repository that functions as the
 
 Once the repository is created, GitHub will display the Code tab and you should see this content. Note that in future labs, the URL in step 2 and the repository name you provide in step 3 will vary.
 
-## Add me as a collaborator so I can view and grade your work:
+## Add me as a collaborator so I can view and grade your work
 
 In this step, your team of one will become a team of two so I can view your code, answer questions, and grade your work.
 
