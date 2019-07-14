@@ -42,7 +42,9 @@ Once you add me, you should see my name and picture in the "Collaborators" secti
 1. In the "Checkout From Version Control" dialog, click "Yes"
 1. If necessary, expand the project by clicking on, "1. Project" from the left margin of the IntelliJ workspace
 
-## Before you start Coding
+## IMPORTANT: Before you start Coding
+
+It is important you never directly commit to the "master" branch. Instead, always create a new branch for each assignment. Failure to do so will prevent you from creating a pull request for grading.
 
 1. Go to "VCS" then choose "Git" -> "Branches"
 1. Click on "+ New Branch"
@@ -51,17 +53,22 @@ Once you add me, you should see my name and picture in the "Collaborators" secti
 
 ## Complete the coding assignment as directed, committing your changes frequently
 
+This lab is pretty basic. You will make one change in one file so I can verify you are successfully able to create a pull request for grading. In other labs, this section will vary.
+
 1. For this lab, replace "World" in "Hello World" with your name in ``HomeController.java`` under ``src/main/java/hello``
 1. Test your changes:
     1. From the "Project" pane, right click on ``Application`` under ``src/main/java/hello`` 
     1. Choose "Run 'Application.main()"
-    1. When you see ``hello.Application                        : Started Application`` in the Application Run window, open a new tab in your browser and visit [localhost:8080](localhost:8080)
-    1. If the page displays with the message "Hello" along with your name, you have successfully tested your changes. 
+    1. When you see ``hello.Application : Started Application`` in the Application Run window, open a new tab in your browser and visit [localhost:8080](localhost:8080)
+    1. If the page displays with the message "Hello" along with your name, you have successfully tested your changes. If it still says, "Hello World", make sure you saved your changes then stop and rerun the application. If you are unable to run your application due to a missing JDK, see Blackboard for instructions on how to fix this. 
 1. From the "VCS" menu, choose "Commit"
-1. Enter a meaningful comment like, "updated Home Controller to display my name", in the "Commit Changes" dialog then press "Commit"
+1. Enter a meaningful comment like, "updated Home Controller to display my name", in the "Commit Changes" dialog then press "Commit" (or "Commit and Push" followed by "Push")
 
+**Note:** pushing your changes after each commit has the secondary benefit of backing up your work so you don't loose it.
 
-## Push your changes and create a pull request for grading grading
+## Push your changes and create a pull request for grading
+
+Once you have successfully completed the assignment, follow this process to create a new pull request and add me as a reviewer so I can grade your work.
 
 1. Make your final commit if you haven't already (see last step in the section above)
 1. From the "VCS" menu, choose "Git" then "Push"
@@ -79,9 +86,11 @@ Once you add me, you should see my name and picture in the "Collaborators" secti
 
 Your work will be considered on time or not based on commit timestamps in GitHub. To avoid having to resubmit your work in Blackboard, **wait until I review and approve** your pull request in GitHub before moving on to the next step.
 
+**NOTE:** If I request additional changes, simply make them in IntelliJ, commit them to your working branch and push them to GitHub. When you are ready for a re-review, add a comment to your pull request asking me to do so. 
+
 ## Once your pull request is reviewed and approved
 
-While GitHub is used for reviewing and grading your work, Columbus State needs an audit trail to show you have successfully completed the assignment. This step is also necessary to be assigned an official grade for your work. 
+While GitHub is used for reviewing and grading your work, Columbus State needs an audit trail to show you have successfully completed the assignment. This step is also necessary to be assigned an official grade in Blackboard. 
 
 1. Using the file explorer under "Places", navigate to the parent directory of where you created your IntelliJ project
 1. Right click on the project folder name then choose "Compress"
@@ -98,4 +107,4 @@ While GitHub is used for reviewing and grading your work, Columbus State needs a
 
 First, carefully read the directions above. It's easy to skip a step then run into problems later. If you are still stuck, send me an email via blackboard with details of your problem. 
 
-Another excellent way to solicit my help is to follow the procedures in the *push your changes and create a pull request for grading grading* section above. Add me as a reviewer then add a comment with details of how I can help. The advantage of this approach is I can see your code and provide more accurate guidance. If you do this, there is no need to create a new pull request for grading when you are done.  Simply commit all your changes and push them to GitHub then add a comment asking for a final review. 
+Another excellent way to solicit my help is to follow the procedures in the *push your changes and create a pull request for grading grading* section above. Add me as a reviewer then add a comment with details of how I can help. The advantage of this approach is I can see your code and provide more accurate guidance. 
