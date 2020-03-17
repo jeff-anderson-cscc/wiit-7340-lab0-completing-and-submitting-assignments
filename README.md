@@ -9,7 +9,7 @@
 Normally, everyone on a team works off a shared repository that functions as the hub for collaboration and communication. In a classroom setting, you will need to keep your work private to prevent others from unfairly benefiting from your awesomeness. In this step you will create a private GitHub repository from a base template which I provide.
 
 1. If necessary, login to your personal GitHub account
-1. Visit the following URL to create a personal repository based on the base template: [https://github.com/jeff-anderson-cscc/lab0-completing-and-submitting-assignments/generate](https://github.com/jeff-anderson-cscc/lab0-completing-and-submitting-assignments/generate) 
+1. Visit the following URL to create a personal repository based on the base template: [https://github.com/jeff-anderson-cscc/wiit-7340-lab0-completing-and-submitting-assignments/generate](https://github.com/jeff-anderson-cscc/wiit-7340-lab0-completing-and-submitting-assignments/generate) 
 1. Enter ``lab0-completing-and-submitting-assignments`` for the repository name
 1. **Important:** Click "Private" to keep others from viewing your work
 1. Click "Create repository from template"
